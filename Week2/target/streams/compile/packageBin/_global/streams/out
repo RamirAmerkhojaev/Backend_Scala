@@ -1,0 +1,9 @@
+[debug] Packaging C:\Users\Dell\Desktop\Backend\Week2\target\scala-2.13\week2_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Hello$.class
+[debug] 	  C:\Users\Dell\Desktop\Backend\Week2\target\scala-2.13\classes\Hello$.class
+[debug] 	Hello$delayedInit$body.class
+[debug] 	  C:\Users\Dell\Desktop\Backend\Week2\target\scala-2.13\classes\Hello$delayedInit$body.class
+[debug] 	Hello.class
+[debug] 	  C:\Users\Dell\Desktop\Backend\Week2\target\scala-2.13\classes\Hello.class
+[debug] Done packaging.
