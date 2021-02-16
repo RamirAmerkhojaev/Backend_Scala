@@ -1,3 +1,5 @@
+import scala.collection.mutable.ArrayBuffer
+
 object Hello extends App {
 
   def ex1(): Unit = {
@@ -62,6 +64,7 @@ object Hello extends App {
 
     fruitLengths
   }
+
 
   //ex1()
   //println(ex2(2, 2))
