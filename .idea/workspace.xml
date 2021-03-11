@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67c5eb99-8811-4899-ac97-936ebe44f312" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week4/src/main/scala/Calculator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/src/main/scala/Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,20 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week4" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week5" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613991289866</updated>
       <workItem from="1613991291346" duration="121000" />
+      <workItem from="1615274556845" duration="37000" />
     </task>
     <servers />
   </component>
@@ -72,5 +68,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

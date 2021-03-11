@@ -1,0 +1,11 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\Dell\Desktop\Backend\Week5\Calculator\target\scala-2.13\classes ...
+[warn] C:\Users\Dell\Desktop\Backend\Week5\Calculator\src\main\scala\Week2_Calculator.scala:27:10: match may not be exhaustive.
+[warn] It would fail on the following input: Failure()
+[warn]     parse(gap, expr(_)) match {
+[warn]          ^
+[warn] 1 deprecation (since 2.11.0); re-run with -deprecation for details
+[warn] two warnings found
+[info] done compiling

@@ -1,0 +1,6 @@
+[warn] C:\Users\Dell\Desktop\Backend\Week5\Calculator\src\main\scala\Week2_Calculator.scala:27:10: match may not be exhaustive.
+[warn] It would fail on the following input: Failure()
+[warn]     parse(gap, expr(_)) match {
+[warn]          ^
+[warn] 1 deprecation (since 2.11.0); re-run with -deprecation for details
+[warn] two warnings found
