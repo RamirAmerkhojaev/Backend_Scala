@@ -1,0 +1,41 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t week10r:0.2 .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory C:\Users\Dell\Desktop\Backend\Week10\target\docker\stage[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:458e8b57a34c6f47fd1061a59d14a2f81dadf3b74808badae235fdedbd84b44a[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 202B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:c20373b206b6acebe2ec6c0dc276eae0b54acf046c620383862b3d5579a24e3a[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:8-jre-alpine[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:54c6f6c810fe8adaea295f024fab13dc1a9a70e363a76f4d0bfb6e7ae191ebae[0m
+[0m[[0m[31merror[0m] [0m[0m#3 ...[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [auth] library/openjdk:pull token for registry-1.docker.io[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:138bf47b99f5a9c1fac0361f6db68ef22869c12ee613feb74bdcfdf38f22bbe9[0m
+[0m[[0m[31merror[0m] [0m[0m#4 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:8-jre-alpine[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:54c6f6c810fe8adaea295f024fab13dc1a9a70e363a76f4d0bfb6e7ae191ebae[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 3.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [1/3] FROM docker.io/library/openjdk:8-jre-alpine@sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:0fa9d77ffba4c0cfb36bec29d2e0b02d36226b626b50f29355d5a97517be8e0b[0m
+[0m[[0m[31merror[0m] [0m[0m#5 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#7 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#7 sha256:fb9fb66ebacddfb9d3ecf3fa3ff34eb6ccbd7a346fc707c05bf2a6fb5111daf2[0m
+[0m[[0m[31merror[0m] [0m[0m#7 transferring context: 110.17kB 0.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#7 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [2/3] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#6 sha256:f3f59e8ad8ac9263708c740a121756ee62429c19b6156e19fe50bd0cc8b8f77e[0m
+[0m[[0m[31merror[0m] [0m[0m#6 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [3/3] ADD --chown=daemon:daemon opt /opt[0m
+[0m[[0m[31merror[0m] [0m[0m#8 sha256:d3d88e93bbcbbcfc423553c92f019848461637b6b8d865a66eb6462bde26d44b[0m
+[0m[[0m[31merror[0m] [0m[0m#8 DONE 0.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#9 exporting to image[0m
+[0m[[0m[31merror[0m] [0m[0m#9 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m
+[0m[[0m[31merror[0m] [0m[0m#9 exporting layers[0m
+[0m[[0m[31merror[0m] [0m[0m#9 exporting layers 0.3s done[0m
+[0m[[0m[31merror[0m] [0m[0m#9 writing image sha256:4ca0a098cfcad8a21593de37d72cc5b5164bd1b843aa9a0bae9d73b1f808d14d 0.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#9 naming to docker.io/library/week10r:0.2 done[0m
+[0m[[0m[31merror[0m] [0m[0m#9 DONE 0.3s[0m
+[0m[[0m[0minfo[0m] [0m[0mUse 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image week10r with tags [0.2][0m

@@ -8,6 +8,9 @@ object Calculator {
 
     def apply(): Behavior[Calculate] = Behaviors.receive{ (context, message) =>
       context.log.info("Calculation Start {}", message.whom)
+
+      val router = new MyRouter(message.whom)
+
       message.replyTo ! Calculated(message.whom, context.self)
       Behaviors.same
     }

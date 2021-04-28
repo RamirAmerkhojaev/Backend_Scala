@@ -1,0 +1,4 @@
+[warn] C:\Users\Dell\Desktop\Backend\Week9\src\main\scala\MyRouter.scala:13:45: comparing values of types Char and String using `!=' will always yield true
+[warn]       val gap = input.filter((char) => char != "")
+[warn]                                             ^
+[warn] one warning found

@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\Dell\Desktop\Backend\Week10\target\scala-2.12\week10r_2.12-0.2-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week10\src\main\resources\application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week10\src\main\resources\logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ApiError.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week10\src\main\scala\ApiError.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InMemoryTodoRepository.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week10\src\main\scala\InMemoryTodoRepository.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week10\src\main\scala\Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week10\src\main\scala\MyRouter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyServer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week10\src\main\scala\MyServer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Todo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week10\src\main\scala\Todo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TodoDirectives.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week10\src\main\scala\TodoDirectives.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TodoRepository.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week10\src\main\scala\TodoRepository.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Validator.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week10\src\main\scala\Validator.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ValidatorDirectives.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week10\src\main\scala\ValidatorDirectives.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

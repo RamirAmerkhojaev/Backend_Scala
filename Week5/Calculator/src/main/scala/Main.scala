@@ -12,6 +12,7 @@ object Main extends App {
 
   while (true) {
     val input = scala.io.StdIn.readLine()
+
     val gap = input.filter((char) => char != ' ')
     if (input == "q") {
       System.exit(0)

@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67c5eb99-8811-4899-ac97-936ebe44f312" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week5/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +46,7 @@
       <updated>1613991289866</updated>
       <workItem from="1613991291346" duration="121000" />
       <workItem from="1615274556845" duration="37000" />
+      <workItem from="1615541665375" duration="8525000" />
     </task>
     <servers />
   </component>
