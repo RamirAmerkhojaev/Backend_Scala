@@ -1,0 +1,3 @@
+[warn] C:\Users\Dell\Desktop\Backend\Week12\src\main\scala\InMemoryUrlRepository.scala:27:40: variable urls in class InMemoryUrlRepository does nothing other than call itself recursively
+[warn]   private var urls: Vector[ShortUrl] = urls
+[warn]                                        ^

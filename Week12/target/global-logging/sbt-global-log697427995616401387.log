@@ -1,0 +1,93 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 1.8.0_281)
+[debug]       Load.loadUnit: plugins took 116.9323ms
+[debug]       Load.loadUnit: defsScala took 0.5821ms
+[debug] [Loading] Scanning directory C:\Users\Dell\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Dell\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 26.0182 ms
+[debug]           Load.resolveProject(global-plugins) took 62.6312ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Dell\.sbt\1.0\plugins, plugins: List(<none>))) took 122.3416ms
+[debug] [Loading] Done in C:\Users\Dell\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 155.0814ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2886ms
+[debug]     Load.loadUnit(file:/C:/Users/Dell/.sbt/1.0/plugins/, ...) took 283.9034ms
+[debug]   Load.apply: load took 568.7539ms
+[debug]   Load.apply: resolveProjects took 7.961ms
+[debug]   Load.apply: finalTransforms took 63.2722ms
+[debug]   Load.apply: config.delegates took 11.2211ms
+[debug]   Load.apply: Def.make(settings)... took 1509.5588ms
+[debug]   Load.apply: structureIndex took 107.2421ms
+[debug]   Load.apply: mkStreams took 2.2676ms
+[info] loading global plugins from C:\Users\Dell\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4824.1553ms
+[debug]           Load.loadUnit: plugins took 32.3279ms
+[debug]           Load.loadUnit: defsScala took 0.003ms
+[debug] [Loading] Scanning directory C:\Users\Dell\Desktop\Backend\Week12\project
+[debug]             Load.loadUnit: mkEval took 7.3527ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Dell\Desktop\Backend\Week12\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.6661 ms
+[info] loading settings for project week12-build from plugins.sbt ...
+[debug]               Load.resolveProject(week12-build) took 3.1848ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id week12-build, base: C:\Users\Dell\Desktop\Backend\Week12\project, plugins: List(<none>))) took 8.7029ms
+[debug] [Loading] Done in C:\Users\Dell\Desktop\Backend\Week12\project, returning: (week12-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 135.3952ms
+[debug]           Load.loadUnit: cleanEvalClasses took 5.498ms
+[debug]         Load.loadUnit(file:/C:/Users/Dell/Desktop/Backend/Week12/project/, ...) took 174.5137ms
+[debug]       Load.apply: load took 175.9091ms
+[debug]       Load.apply: resolveProjects took 0.0798ms
+[debug]       Load.apply: finalTransforms took 8.2118ms
+[debug]       Load.apply: config.delegates took 0.3692ms
+[debug]       Load.apply: Def.make(settings)... took 98.7554ms
+[debug]       Load.apply: structureIndex took 34.9639ms
+[debug]       Load.apply: mkStreams took 0.0022ms
+[info] loading project definition from C:\Users\Dell\Desktop\Backend\Week12\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 970.971ms
+[debug]     Load.loadUnit: defsScala took 0.0027ms
+[debug] [Loading] Scanning directory C:\Users\Dell\Desktop\Backend\Week12
+[debug]       Load.loadUnit: mkEval took 0.3112ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Dell\Desktop\Backend\Week12, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging), Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.SbtNativePackager),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemVPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.UpstartPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerSpotifyClientPlugin),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin))), Clause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin,com.typesafe.sbt.packager.docker.DockerPlugin,sbt.plugins.IvyPlugin,sbt.plugins.Giter8TemplatePlugin,com.typesafe.sbt.packager.debian.DebianPlugin,sbt.plugins.JvmPlugin,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin,com.typesafe.sbt.SbtNativePackager)
+[debug] Plugins.deducer#function took 6.7158 ms
+[info] loading settings for project week12 from build.sbt ...
+[debug]         Load.resolveProject(week12) took 61.2889ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id week12, base: C:\Users\Dell\Desktop\Backend\Week12, plugins: List(<none>))) took 70.827ms
+[debug] [Loading] Done in C:\Users\Dell\Desktop\Backend\Week12, returning: (week12)
+[debug]     Load.loadUnit: loadedProjectsRaw took 300.7123ms
+[debug]     Load.loadUnit: cleanEvalClasses took 6.4068ms
+[debug]   Load.loadUnit(file:/C:/Users/Dell/Desktop/Backend/Week12/, ...) took 1278.7955ms
+[debug] Load.apply: load took 1281.4774ms
+[debug] Load.apply: resolveProjects took 0.1313ms
+[debug] Load.apply: finalTransforms took 12.6522ms
+[debug] Load.apply: config.delegates took 1.2306ms
+[debug] Load.apply: Def.make(settings)... took 106.9595ms
+[debug] Load.apply: structureIndex took 32.1941ms
+[debug] Load.apply: mkStreams took 0.0027ms
+[info] set current project to week10r (in build file:/C:/Users/Dell/Desktop/Backend/Week12/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\Dell\Desktop\Backend\Week12\target\scala-2.12\classes ...
+[info] done compiling
