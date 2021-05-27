@@ -7,7 +7,7 @@ trait  Router {
   def route: Route
 }
 
-class MyRouter(shortUrlRepository: ShortUrlRepository)(implicit system: ActorSystem[_],  ex:ExecutionContext)
+class MyRouter(shortUrlRepository: MongoDbUrlRepository)(implicit system: ActorSystem[_],  ex:ExecutionContext)
   extends Router
     with Directives
     with ErrorDirectives

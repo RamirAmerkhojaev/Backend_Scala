@@ -12,9 +12,10 @@ object Main extends App {
     implicit val ec = context.executionContext
     implicit val sys = context.system
 
-    val urls = new RedisUrlRepository()
+    val urls = new MongoDbUrlRepository()
 
     val router = new MyRouter(urls)
+
 
     MyServer.startHttpServer(router.route)
     Behaviors.empty

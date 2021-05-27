@@ -1,1 +1,31 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: C:\Users\Dell\Desktop\Backend\Week12\target\scala-2.12\week12x_2.12-0.3-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\Dell\Desktop\Backend\Week12\target\scala-2.12\week12x_2.12-0.3-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\resources\application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\resources\logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ApiError.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\scala\ApiError.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ErrorDirectives.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\scala\ErrorDirectives.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Helpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\scala\Helpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InMemoryUrlRepository.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\scala\InMemoryUrlRepository.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\scala\Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoDb.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\scala\MongoDb.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\scala\MyRouter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyServer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\scala\MyServer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ShortUrl.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\scala\ShortUrl.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ShortUrlRepository.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\scala\ShortUrlRepository.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Validator.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\scala\Validator.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ValidatorDiractives.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Dell\Desktop\Backend\Week12\src\main\scala\ValidatorDiractives.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

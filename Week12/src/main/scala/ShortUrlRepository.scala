@@ -6,4 +6,5 @@ trait ShortUrlRepository {
   def get(id: String): Future[String]
   def create(createUrl: CreateShortUrl): Future[ShortUrl]
 
+
 }
