@@ -5,7 +5,7 @@ object Main extends App {
 
     def isAnagram(s: String, t: String): Boolean = {
 
-        if (s.sortWith(_<_) contains t.sortWith(_<_)){ //Here I sort both strings and check whether on string contains another
+        if ((s.sortWith(_<_) contains t.sortWith(_<_)) && (t.length == s.length)){ //Here I sort both strings and check whether on string contains another and their lengths are equal
             true
         }else {
             false
@@ -100,8 +100,8 @@ object Main extends App {
             1 + Math.max(maxDepth(root.left), maxDepth(root.right)) // Here I recursively calculate height of left and right subtrees of a node and
             // assign height to the node as max of the heights of two children + 1
         }
-        
-    case class Node(var _value: Int) { // Definition for a binary node.
+
+    case class Node(var _value: Int) { // Definition for a  node.
           var value: Int = _value
           var children: List[Node] = List()
         }
