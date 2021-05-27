@@ -66,19 +66,19 @@ object Main extends App {
         util.Arrays.sort(boxTypes, (a: Array[Int], b: Array[Int]) => b(1) - a(1)) // sort array with decreasing order
 
 
-        var tsize = truckSize // our truckSize has val and immutable, so we make it mutable
+        var mutableSize = truckSize // our truckSize has val and immutable, so we make it mutable
         var ans = 0
         var i = 0
         while ( {
-            tsize > 0 && i < boxTypes.length // tsize every cycle become smaller because each box takes place n truck
+            mutableSize > 0 && i < boxTypes.length // mutableSize every cycle become smaller because each box takes place n truck
         }) {
-            if (tsize > boxTypes(i)(0)) {
+            if (mutableSize > boxTypes(i)(0)) {
                 ans += (boxTypes(i)(0) * boxTypes(i)(1))
-                tsize = tsize - boxTypes(i)(0) // If we have free place in truck, we count units by multiplying boxes on elements in boxes
+                mutableSize = mutableSize - boxTypes(i)(0) // If we have free place in truck, we count units by multiplying boxes on elements in boxes
             }
             else {
-                ans += (tsize * boxTypes(i)(1)) // if we don't have free place, just multiply what's left the elements in boxes and our size of truck became zero
-                tsize = 0
+                ans += (mutableSize * boxTypes(i)(1)) // if we don't have free place, just multiply what's left the elements in boxes and our size of truck became zero
+                mutableSize = 0
             }
             i += 1
         }
